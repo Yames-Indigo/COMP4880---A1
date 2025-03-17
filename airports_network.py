@@ -79,16 +79,16 @@ plt.show()
 
 
 
-#print(nx.diameter(G=G))
+print(nx.diameter(G=G))
 
-#G_shortest_paths = nx.shortest_path(G)
+G_shortest_paths = nx.shortest_path(G)
 
 #with open("G_shortest_paths.pkl", "wb") as f:
 #    pickle.dump(G_shortest_paths, f)
 
 
-with open("G_shortest_paths.pkl", "rb") as f:
-    G_shortest_paths = pickle.load(f)
+#with open("G_shortest_paths.pkl", "rb") as f:
+#    G_shortest_paths = pickle.load(f)
 
 '''
 for k1 in G_shortest_paths:
